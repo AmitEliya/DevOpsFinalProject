@@ -11,7 +11,7 @@
 
     <h3>Team Members:</h3>
     <ul>
-        <li>Amit Kriaaaf</li>
+        <li>Amit Kriaaaaf</li>
         <li>Amit Eliya</li>
         <li>Bar Bichachi</li>
     </ul>
