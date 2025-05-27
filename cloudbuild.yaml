@@ -1,7 +1,8 @@
 steps:
-- name: 'gcr.io/cloud-builders/git'
-  args: ['clone', 'https://github.com/AmitEliya/DevOpsFinalProject.git', '.']
-  id: Clone Repository
+# אין צורך בשלב הזה של git clone, כי Cloud Build כבר הוריד את המאגר בשלב FETCHSOURCE
+# - name: 'gcr.io/cloud-builders/git'
+#   args: ['clone', 'https://github.com/AmitEliya/DevOpsFinalProject.git', '.']
+#   id: Clone Repository
 
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['storage', 'cp', './index.jsp', 'gs://devops-final-project-bucket/index.jsp']
